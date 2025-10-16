@@ -7,14 +7,6 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 @SpringBootApplication
 public class PracticeJenkinsApplication extends SpringBootServletInitializer{
-	
-	
-	//SpringBootServletInitializer
-	@Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(PracticeJenkinsApplication.class);
-    }
-	
 	public static void main(String[] args) {
 		SpringApplication.run(PracticeJenkinsApplication.class, args);
 	}
